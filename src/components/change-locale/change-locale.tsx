@@ -4,10 +4,10 @@ import type { SpeakLocale } from 'qwik-speak';
 import { useSpeakLocale, useSpeakConfig, useDisplayName, useTranslate } from 'qwik-speak';
 // import { useTranslatePath } from 'qwik-speak';
 
-import styles from './change-locale.css';
+import styles from './change-locale.css?inline';
 
 export const ChangeLocale = component$(() => {
- 
+ useStyles$(styles)
 
   const t = useTranslate();
   const dn = useDisplayName();

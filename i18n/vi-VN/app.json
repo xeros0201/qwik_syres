@@ -1,0 +1,11 @@
+{
+  "app": {
+    "changeLocale": "Đổi ngôn ngữ",
+    "nav": {
+      "home": "Trang Chủ",
+      "page": "Trang"
+    },
+    "subtitle": "Traduci le tue app Qwik in qualsiasi lingua",
+    "title": "Qwik Speak"
+  }
+}
